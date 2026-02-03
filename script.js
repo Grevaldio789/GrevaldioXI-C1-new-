@@ -257,17 +257,18 @@ const students = [
 
 const tbody = document.getElementById("data-siswa");
 
-students.forEach((students, index) => {
+student.forEach((students, index) => {
   const row = document.createElement("tr");
 
   row.innerHTML = `
     <td>${index + 1}</td>
-    <td>${students.nis}</td>
-    <td>${students.name}</td>
-    <td>${students.class_id}</td>
+    <td>${student.nis}</td>
+    <td>${student.name}</td>
+    <td>${student.class_id}</td>
   `;
 
   tbody.appendChild(row);
 });
+
 
 
