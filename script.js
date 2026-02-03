@@ -257,7 +257,7 @@ const students = [
 
 const tbody = document.getElementById("data-siswa");
 
-students.forEach((student, index) => {
+students.forEach((students, index) => {
   const row = document.createElement("tr");
 
   row.innerHTML = `
@@ -269,3 +269,4 @@ students.forEach((student, index) => {
 
   tbody.appendChild(row);
 });
+
