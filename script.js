@@ -262,11 +262,12 @@ students.forEach((students, index) => {
 
   row.innerHTML = `
     <td>${index + 1}</td>
-    <td>${student.nis}</td>
-    <td>${student.name}</td>
-    <td>${student.class_id}</td>
+    <td>${students.nis}</td>
+    <td>${students.name}</td>
+    <td>${students.class_id}</td>
   `;
 
   tbody.appendChild(row);
 });
+
 
