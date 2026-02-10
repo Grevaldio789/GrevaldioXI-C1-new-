@@ -251,7 +251,6 @@ const students = [
     "Class_id": "XI-C1",
     "Created_at": "2026-01-27 08:28:48"
   }
-]
 
 ];
 
@@ -269,6 +268,7 @@ students.forEach((student, index) => {
 
   tbody.appendChild(row);
 });
+
 
 
 
